@@ -15,7 +15,7 @@ minMaxTemps.sort(function (a, b) {
 //Задаем переменные для элементов максим. и миним. температуры
 let maxtemp = document.getElementById("maxtemp");
 let mintemp = document.getElementById("mintemp");
-//Присваим значения из массива с отсортированной температурой
+//Присваивам значения из массива с отсортированной температурой
 maxtemp.textContent = minMaxTemps[0];
 mintemp.textContent = minMaxTemps[4];
 //Цикл для создания блока с городами и значениями температур
